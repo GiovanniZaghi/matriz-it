@@ -687,7 +687,25 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
-
+.c-loader{
+  animation:is-rotating 1s infinite;
+  border: 6px solid #d3d3d3;
+  border-radius:50%;
+  border-top-color: #e03102;
+  height: 45px;
+  width: 45px; 
+  margin: auto;
+}
+@keyframes is-rotating{
+  to{transform: rotate(1turn);}
+  
+}
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
 .col {
   flex: 1 0 0%;
 }
