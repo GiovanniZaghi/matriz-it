@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^matrizit.com.br$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.matrizit.com.br$
+RewriteCond %{REQUEST_URI} !repositories/
+RewriteRule (.*) /repositories/$1 [L]
