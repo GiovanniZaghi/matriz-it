@@ -1,0 +1,44 @@
+.text-semi-bold {
+    font-weight: 100%;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none !important;
+}
+
+.navbar-center-align {
+    text-align: center;
+}
+.bg-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('https://matrizit.com.br/assets/images/bg-home.png');
+}
+
+.bg-color {
+    background-color: #09092E !important;
+}
+
+.text-title-bg {
+    font-size: 60px !important;
+    font-weight: bold !important;
+}
+
+.text-regular-white {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: #FFFFFF;
+}
+
+.items-center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
