@@ -1,3 +1,16 @@
+.text-semi-bold {
+    font-weight: 100%;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none !important;
+}
+
+.navbar-center-align {
+    text-align: center;
+}
+
 .bg-home {
     position: fixed;
     top: 0;
