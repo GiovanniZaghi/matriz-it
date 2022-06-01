@@ -70,12 +70,11 @@
 }
 
 .button {
-    background-color: #FF3C00;
-    border: 30%;
-    color: white;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 50px;
+    border: 30% !important;
+    color: white !important;
+    display: inline-block !important;
+    font-size: 13px !important;
+    border-radius: 50px !important;
 }
 
 .margin {
