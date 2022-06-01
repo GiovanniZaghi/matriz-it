@@ -1,5 +1,7 @@
 .text-semi-bold {
-    font-weight: 100%;
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: 500;
 }
 
 .navbar-center {
@@ -65,4 +67,41 @@
     flex-direction: row;
     justify-content: center;
     align-items: center
+}
+
+.button {
+    background-color: #FF3C00;
+    border: 30%;
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.margin {
+    margin: 20px;
+    padding: 7px 20px;
+}
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #d3d3d3;
+    border-radius: 50%;
+    border-top-color: #e03102;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
 }
