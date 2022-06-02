@@ -4524,6 +4524,7 @@ fieldset:disabled .btn {
 
 .card-body {
     flex: 1 1 auto;
+    height: 180px;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
 }
