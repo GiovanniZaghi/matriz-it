@@ -1,13 +1,13 @@
 a:link,
 a:visited {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-decoration: none;
     cursor: pointer;
 }
 
 a:link:active,
 a:visited:active {
-    color: #e03102;
+    color: #e03102 !important;
 }
 
 .text-semi-bold {
