@@ -1,8 +1,8 @@
 a:link,
 a:visited {
     color: #FFFFFF !important;
-    text-decoration: none;
-    cursor: pointer;
+    text-decoration: none !important;
+    cursor: pointer !important;
 }
 
 a:link:active,
@@ -14,6 +14,12 @@ a:visited:active {
     font-weight: normal;
     font-weight: bold;
     font-weight: 500;
+}
+
+.invi{
+    background-color: transparent !important;
+    border-color: #FFFFFF !important;
+    border-width: 1px !important;
 }
 
 .navbar-center {
