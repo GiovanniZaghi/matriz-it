@@ -218,23 +218,23 @@
                         <div class="" style="padding: 40px;">
                             <div class="form-group " style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Nome:</label>
-                                <input type="email" class="form-control invi " style="width: 400px;"
+                                <input type="email" class="form-control invi " style="width: 100%;"
                                     id="exampleFormControlInput1" placeholder="Ex: Luiz da Silva">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Email:</label>
-                                <input type="email" class="form-control invi text-white" style="width: 400px;"
+                                <input type="email" class="form-control invi text-white" style="width: 100%;"
                                     id="exampleFormControlInput1" placeholder="Ex: contato@gmail.com">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Whatsapp:</label>
-                                <input type="email" class="form-control invi text-white" style="width: 400px;"
+                                <input type="email" class="form-control invi text-white" style="width: 100%;"
                                     id="exampleFormControlInput1" placeholder="Ex: 11 9000-0000">
                             </div>
 
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlTextarea1">Mensagem:</label>
-                                <textarea class="form-control invi text-white" style="width: 400px;"
+                                <textarea class="form-control invi text-white" style="width: 100%;"
                                     id="exampleFormControlTextarea1" placeholder="Escreva aqui a mensagem.."
                                     rows="3"></textarea>
                             </div>
