@@ -8,8 +8,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.3/tippy.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.3/themes/light.css" />
 </head>
+
+
 
 <body>
 
@@ -17,10 +20,16 @@
         <div class="container">
             <div class="row">
                 <div class="text-center margin">
-                    <img class="rounded-circle btn btn-basic btn-circle btn-lg margin" alt="um tex" title="flutter"
+                    <button id="tooltip" title="Facebook aq" class="btn btn-basic btn-circle btn-lg margin"><img alt=""
+                            class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
+                            <button id="tooltip" title="Facebook aq" class="btn btn-basic btn-circle btn-lg margin"><img alt=""
+                                class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button><button id="tooltip" title="Facebook aq" class="btn btn-basic btn-circle btn-lg margin"><img alt=""
+                                    class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button><button id="tooltip" title="Facebook aq" class="btn btn-basic btn-circle btn-lg margin"><img alt=""
+                                        class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button><button id="tooltip" title="Facebook aq" class="btn btn-basic btn-circle btn-lg margin"><img alt=""
+                                            class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
+                    <!--<img class="rounded-circle btn btn-basic btn-circle btn-lg margin" alt="um tex" title="flutter"
                         src="https://matrizit.com.br/assets/images/face.png" style="">
-                    <!-- <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
-                    <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
+                     <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
                     <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
                     <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button>
                     <button type="button" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" src="https://matrizit.com.br/assets/images/face.png"></button> -->
@@ -32,8 +41,13 @@
 
 
     <!-- JS -->
+
     <script src="assets/js/main.js "></script>
     <script src="assets/js/bootstrap.js "></script>
+
+    <script>
+        tippy('#tooltip', { arrow: true });
+    </script>
 
 
 </body>
