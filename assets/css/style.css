@@ -1,3 +1,7 @@
+.bala{
+    display: none;
+}
+
 a:link,
 a:visited {
     color: #FFFFFF !important;
@@ -245,6 +249,10 @@ textarea::placeholder {
   .btn-basic{
       background-color: #FFFFFF !important;
   }
+   title{
+       text-decoration-color: #e03102 !important;
+       background-color: transparent !important;
+   }
 
 
   

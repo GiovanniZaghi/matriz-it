@@ -16,3 +16,18 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+//MOBILE
+
+var btn = document.getElementById('btn-div');
+var mobile = '#mobile';
+var frontEnd = '#front-end';
+var backEnd = '#back-end';
+var bancoDeDados = '#banco-de-dados';
+
+
+function display(){
+    document.getElementById('btn-div').style.display = 'none';
+}
+
+//FRONT-END
+
