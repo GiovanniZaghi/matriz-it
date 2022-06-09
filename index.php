@@ -15,8 +15,6 @@
 </head>
 
 <body>
-
-
     <!-- HOME/HEADER -->
     <section class="bg-home bg-color" style="position: relative;" id="grad home">
         <div class="container" id="home">
@@ -24,12 +22,10 @@
                 <nav id="nav" class=" navbar navbar-expand-lg navbar-dark bg-transparent">
                     <div class="container">
                         <div class="col-sm-7">
-                            <a class="navbar-brand" href="#"><img class="margin"
-                                    src="assets/images/logo-horizontal.png"></a>
+                            <a class="navbar-brand" href="#"><img class="margin" src="assets/images/logo-horizontal.png"></a>
                         </div>
                         <div class="col-sm-5">
-                            <button style="color:#e03102 ;" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true"
-                                aria-controls="menu" aria-expanded="false">
+                            <button style="color:#e03102 ;" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                                 <span id="hamburger"></span>
                             </button>
                             <div>
@@ -45,8 +41,7 @@
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="#contact"><button class="btn button btn-primary text-semi-bold"
-                                                    href="#">Solicite um
+                                            <a href="#contact"><button class="btn button btn-primary text-semi-bold" href="#">Solicite um
                                                     orçamento</button></a>
                                         </div>
                                     </li>
@@ -74,8 +69,7 @@
                         específicas.
                     </p>
                     <br>
-                    <a href="#service"><button type="button"
-                            class="btn button btn-outline-primary btn-lg btn-block">Conheça nossos
+                    <a href="#service"><button type="button" class="btn button btn-outline-primary btn-lg btn-block">Conheça nossos
                             serviços</button></a>
 
                 </div>
@@ -105,7 +99,7 @@
             <div class="row mt-5">
                 <div class="col-sm-4">
                     <div class="card" style="background-color: #09092E; ">
-                    
+
                         <!-- Estrategia -->
                         <div class="card-body text-center text-white mt-5 ">
                             <i class="text-center"><img src="assets/images/board-1.png" style="position: absolute;
@@ -116,8 +110,8 @@
                             <div class="mt-3"></div>
                             <p class="card-text">Entendemos problemas e<br>apontamos caminhos
                             </p>
-                          <!--  <button
-                        class="btn button btn-outline-primary text-semi-bold">Saiba mais</button> -->   
+                            <!--  <button
+                        class="btn button btn-outline-primary text-semi-bold">Saiba mais</button> -->
                         </div>
 
                     </div>
@@ -131,15 +125,14 @@
                             <i style="position: absolute;
                             top: 0;
                             left: 50%;
-                            transform: translate(-50%, -50%);"><img
-                                    src="assets/images/board-2.png"></i>
+                            transform: translate(-50%, -50%);"><img src="assets/images/board-2.png"></i>
                             <i class="text-bold" style=" font-size: 20px;">Outsourcing</i>
                             <div class="mt-3"></div>
                             <p class="card-text">Somos especilistas em<br>desenvolvimento
                             </p>
-                           <!-- <button
+                            <!-- <button
                         class="btn button btn-outline-primary text-semi-bold">Saiba mais</button> -->
-                        </div> 
+                        </div>
 
                     </div>
                     <h1 style="position:relative;top: -5px; border: solid 2px #FF3C00"></h1>
@@ -152,24 +145,22 @@
                             <i style="position: absolute;
                             top: 0;
                             left: 50%;
-                            transform: translate(-50%, -50%);"><img
-                                    src="https://matrizit.com.br/assets/images/board-3.png"></i>
+                            transform: translate(-50%, -50%);"><img src="https://matrizit.com.br/assets/images/board-3.png"></i>
                             <i class="text-bold" style="font-size: 20px;">Desenvolvimento <br>de
                                 tecnologia</i>
                             <div class="mt-3"></div>
                             <p class="card-text">Criamos soluções <br>tecnológicas desafiadoras
                             </p>
-                          <!--  <button
+                            <!--  <button
                         class="btn button btn-outline-primary text-semi-bold">Saiba mais</button> -->
-                        </div> 
+                        </div>
 
                     </div>
                     <h1 style="position:relative;top: -5px; border: solid 2px #FF3C00"></h1>
                 </div>
             </div>
             <div class="row text-center mt-5 ">
-                <a class="nav-link" href="#contact"><button
-                        class="btn button btn-outline-primary text-semi-bold">Solicite um
+                <a class="nav-link" href="#contact"><button class="btn button btn-outline-primary text-semi-bold">Solicite um
                         orçamento</button></a>
             </div>
             <br>
@@ -178,7 +169,6 @@
         </div>
     </section>
     <section class=" bg-color responsivo responsivo-we tecnologia" id="grad ">
-        <img>
         <div class="container items-center" id="tecno">
             <div class="row">
                 <div class="text-center">
@@ -186,8 +176,6 @@
                 </div>
 
                 <div class="col-sm-12 text-center">
-
-
                     <h1 class="text-title-bg text-white"><i style="color: #FF3C00;">
                         </i>
                     </h1>
@@ -197,82 +185,44 @@
                     <br>
                     <div class="container text-center">
                         <div class="text-center d-flex justify-content-center">
-                            <a class="m-1 text-center" onClick="changeDisplay('mobile')" ><button
-                                    class="btn btn-primary" style="width: 150px;" type="button">Mobile</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('front-end')" ><button
-                                    class="btn btn-primary" style="width: 150px;" type="button">Front-end</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary"
-                                    style="width: 150px;" type="button">Back-end</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary"
-                                    style="width: 150px;" type="button">Banco de dados</button></a>
+                            <a class="m-1 text-center" onClick="changeDisplay('mobile')"><button class="btn btn-primary" style="width: 150px;" type="button">Mobile</button></a>
+                            <a class="m-1 text-center" onClick="changeDisplay('front-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Front-end</button></a>
+                            <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Back-end</button></a>
+                            <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary" style="width: 150px;" type="button">Banco de dados</button></a>
                         </div>
 
                         <!-- MOBILE -->
                         <div class="bala" id="mobile">
-                            <button id="tooltip" title="Flutter (Hibrido)"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\flutter.png"></button>
-                            <button id="tooltip" title="React Native (Hibrido)"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\react.png"></button>
+                            <button id="tooltip" title="Flutter (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\flutter.png"></button>
+                            <button id="tooltip" title="React Native (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
 
                         </div>
 
                         <!-- FRONT-END -->
                         <div class="bala" id="front-end">
-                            <button id="tooltip" title="React"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\react.png"></button>
-                            <button id="tooltip" title="Angular"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\angular.png"></button>
-                            <button id="tooltip" title="MobX"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\mobx.png"></button>
-                            <button id="tooltip" title="Less / Saas"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\less.png"></button>
-                            <button id="tooltip" title="Javascript"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\javascript.png"></button>
-                            <button id="tooltip" title="Typescript"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\typescript.jpg"></button>
+                            <button id="tooltip" title="React" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
+                            <button id="tooltip" title="Angular" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\angular.png"></button>
+                            <button id="tooltip" title="MobX" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mobx.png"></button>
+                            <button id="tooltip" title="Less / Saas" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\less.png"></button>
+                            <button id="tooltip" title="Javascript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\javascript.png"></button>
+                            <button id="tooltip" title="Typescript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\typescript.jpg"></button>
                         </div>
 
                         <!-- BACK-END -->
                         <div class="bala" id="back-end">
-                            <button id="tooltip" title="Node.js"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\node.png"></button>
-                            <button id="tooltip" title="Docker"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\docker.png"></button>
-                            <button id="tooltip" title="GraphQL"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\GraphQL.png"></button>
-                            <button id="tooltip" title="Google Cloud"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\google.png"></button>
-                            <button id="tooltip" title="AWS Cloud"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\aws.png"></button>
-                            <button id="tooltip" title="Kubernetes"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\kubernets.png"></button>
+                            <button id="tooltip" title="Node.js" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\node.png"></button>
+                            <button id="tooltip" title="Docker" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\docker.png"></button>
+                            <button id="tooltip" title="GraphQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\GraphQL.png"></button>
+                            <button id="tooltip" title="Google Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\google.png"></button>
+                            <button id="tooltip" title="AWS Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\aws.png"></button>
+                            <button id="tooltip" title="Kubernetes" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\kubernets.png"></button>
                         </div>
 
                         <!-- BANCO DE DADOS -->
                         <div class="bala" id="dba">
-                            <button id="tooltip" title="MySQL"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\mysql.png"></button>
-                            <button id="tooltip" title="PostgreSQL"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\postgre.png"></button>
-                            <button id="tooltip" title="MongoDB"
-                                class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle"
-                                    style="width:50px ;" src="assets\images\mongo.png"></button>
+                            <button id="tooltip" title="MySQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mysql.png"></button>
+                            <button id="tooltip" title="PostgreSQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\postgre.png"></button>
+                            <button id="tooltip" title="MongoDB" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mongo.png"></button>
                         </div>
 
                     </div>
@@ -305,31 +255,25 @@
                         <div class="" style="padding: 40px;">
                             <div class="form-group " style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Nome:</label>
-                                <input type="text" class="form-control invi " style="width: 100%;"
-                                    id="exampleFormControlInput1" placeholder="Ex: Anna Caroline Miranda">
+                                <input type="text" class="form-control invi " style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: Anna Caroline Miranda">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Email:</label>
-                                <input type="email" class="form-control invi text-white" style="width: 100%;"
-                                    id="exampleFormControlInput1" placeholder="Ex: contato@gmail.com">
+                                <input type="email" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: contato@gmail.com">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Whatsapp:</label>
-                                <input type="tell" class="form-control invi text-white" style="width: 100%;"
-                                    id="exampleFormControlInput1" placeholder="Ex: 11 9000-0000">
+                                <input type="tell" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: 11 9000-0000">
                             </div>
 
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlTextarea1">Mensagem:</label>
-                                <textarea class="form-control invi text-white" style="width: 100%;"
-                                    id="exampleFormControlTextarea1" placeholder="Escreva aqui a mensagem.."
-                                    rows="3"></textarea>
+                                <textarea class="form-control invi text-white" style="width: 100%;" id="exampleFormControlTextarea1" placeholder="Escreva aqui a mensagem.." rows="3"></textarea>
                             </div>
                             <br>
 
                             <div class="text-center">
-                                <button type="button" class="btn button btn-outline-primary btn-lg btn-block"
-                                    style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
+                                <button type="button" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
                                     Mensagem</button>
                             </div>
                         </div>
@@ -347,8 +291,7 @@
 
             <!-- Instagram -->
             <a href="https://www.instagram.com/matrizit/" target="_blank">
-                <i class="btn-floating m-0" role="button"><img style="width: 30px ;"
-                        src="assets/images/insta.png"></i>
+                <i class="btn-floating m-0" role="button"><img style="width: 30px ;" src="assets/images/insta.png"></i>
             </a>
 
             <!-- 
@@ -358,8 +301,7 @@
             <!-- Copyright -->
             <div class="text-center p-3 bg-transparent text-semi-bold">
                 Todos os direitos reservados:
-                <a class="text-semi-bold" style="color:#FF3C00 !important; text-decoration:none;"
-                    href="https://matrizit.com.br/">Matriz IT</a>
+                <a class="text-semi-bold" style="color:#FF3C00 !important; text-decoration:none;" href="https://matrizit.com.br/">Matriz IT</a>
             </div>
             <br>
         </div>
@@ -375,7 +317,9 @@
 <script src="assets/js/bootstrap.js "></script>
 
 <script>
-    tippy('#tooltip', { arrow: true });
+    tippy('#tooltip', {
+        arrow: true
+    });
 </script>
 
 
