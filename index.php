@@ -272,10 +272,10 @@
                             <br>
 
                             <div class="text-center">
-                                <form method="post" action="enviar.php">
-                                    <button type="submit" name="BTEnvia" value="Enviar" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
+                                
+                                    <button type="submit" onclick="event.preventDefault(); alert('Formulario enviado com sucesso !!');"  name="BTEnvia" value="Enviar" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
                                         Mensagem</button>
-                                </form>
+                                
                             </div>
                         </div>
                     </form>
