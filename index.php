@@ -304,6 +304,8 @@ if (isset($_POST['BTEnvia'])) {
     $mail->Subject = "Contato site Matriz IT";
     $mail->Body = $email_conteudo;
     $mail->AddAddress("giovanni.zaghi@matrizit.com.br");
+    $mail->ClearReplyTos();
+    $mail->addCC(strtolower($email), "Matriz IT");
 
     if (!$mail->Send()) {
         echo "<script>Alert('Erro ao tentar enviar email')</script>";
