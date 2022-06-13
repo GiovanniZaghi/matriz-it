@@ -231,7 +231,6 @@
         </div>
     </section>
 
-
     <section style="background-color: #09092E;">
         <div class="container" id="contact">
             <div class="row">
@@ -251,30 +250,32 @@
                 </div>
                 <div class="col-sm-5 text-white" style="background: linear-gradient(to top, #09092E 0%, #09092E 2%, #FF3C00 41%, #FF3C00 100%);border-top-left-radius: 30px !important;
                 border-top-right-radius: 30px !important;">
-                    <form>
+                    <form action="email-sender.php" method="POST">
                         <div class="" style="padding: 40px;">
                             <div class="form-group " style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Nome:</label>
-                                <input type="text" class="form-control invi " style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: Anna Caroline Miranda">
+                                <input type="text" class="form-control invi " style="width: 100%;" id="exampleFormControlInput1" name="nome" placeholder="Ex: Luiz da silva">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Email:</label>
-                                <input type="email" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: contato@gmail.com">
+                                <input type="email" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" name="email" placeholder="Ex: contato@gmail.com">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Whatsapp:</label>
-                                <input type="tell" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" placeholder="Ex: 11 9000-0000">
+                                <input type="tell" class="form-control invi text-white" style="width: 100%;" id="exampleFormControlInput1" name="telefone" placeholder="Ex: 11 9000-0000">
                             </div>
 
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlTextarea1">Mensagem:</label>
-                                <textarea class="form-control invi text-white" style="width: 100%;" id="exampleFormControlTextarea1" placeholder="Escreva aqui a mensagem.." rows="3"></textarea>
+                                <textarea class="form-control invi text-white" style="width: 100%;" id="exampleFormControlTextarea1" name="mensagem" placeholder="Escreva aqui a mensagem.." rows="3"></textarea>
                             </div>
                             <br>
 
                             <div class="text-center">
-                                <button type="button" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
-                                    Mensagem</button>
+                                <form method="post" action="enviar.php">
+                                    <button type="submit" name="BTEnvia" value="Enviar" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
+                                        Mensagem</button>
+                                </form>
                             </div>
                         </div>
                     </form>
