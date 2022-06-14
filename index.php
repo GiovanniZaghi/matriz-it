@@ -232,89 +232,86 @@
     </section>
 
     <?php
-if (isset($_POST['BTEnvia'])) {
+    if (isset($_POST['BTEnvia'])) {
 
-    require("PHPMailer-master/src/PHPMailer.php");
-    require("PHPMailer-master/src/SMTP.php");
-    $mail = new PHPMailer\PHPMailer\PHPMailer();
-    $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPAuth = true; // authentication enabled
-    $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "smtp.titan.email";
-    $mail->Port = 465; // or 587
-    $mail->IsHTML(true);
-    $mail->Username = "giovanni.zaghi@matrizit.com.br";
-    $mail->Password = "itmatriz11";
+        require("PHPMailer-master/src/PHPMailer.php");
+        require("PHPMailer-master/src/SMTP.php");
+        $mail = new PHPMailer\PHPMailer\PHPMailer();
+        $mail->IsSMTP(); // enable SMTP
+        $mail->SMTPAuth = true; // authentication enabled
+        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
+        $mail->Host = "smtp.titan.email";
+        $mail->Port = 465; // or 587
+        $mail->IsHTML(true);
+        $mail->Username = "giovanni.zaghi@matrizit.com.br";
+        $mail->Password = "itmatriz11";
 
-    $nome = $_POST["nome"];
-    $email = $_POST["email"];
-    $telefone = $_POST["telefone"];
-    $mensagem = $_POST["mensagem"];
-    
-    $email_conteudo = '<body>
+        $nome = $_POST["nome"];
+        $email = $_POST["email"];
+        $telefone = $_POST["telefone"];
+        $mensagem = $_POST["mensagem"];
 
-    <!-- HEADER -->
-    <section style="background-color: #000021; width: 100%; height: 100%;">
-        <div class="container">
-            <div class="row" >
-                <div style="justify-content: center; margin: auto; align-items: center; display: flex;">
-                    <a href="https://matrizit.com.br" target="_blank"><img style="margin-top: 10%; margin-bottom: 10%;" src="https://matrizit.com.br/assets/images/logo-horizontal.png"></a>
-                </div>
-                    <div class="col-sm-12" style="background-color: #FFFFFF; border-radius: 30px; justify-content: center; width: 50%; margin: auto; padding: 20px;">
-                        <br><br>
-                        <h3>Dados fornecidos para contato !</h3>
-                        <br><br>
-                        <p><b>Nome</b> :  '. $nome .'</p>
-                        <p><b>Email</b> : '. $email .'</p>
-                        <p><b>Telefone</b> : '.$telefone .'</p>
-                        <p><b>Mensagem</b> : '. $mensagem .'</p>
-                        <br><br>
-                    </div>
-                    
-                    <div style="justify-content: center; margin: auto; align-items: center; display: flex;"><p style="color: #FFFFFF;"><br>
-                        <br>Entraremos em contato em breve para mais detalhes.<br></p></div>
+        $email_conteudo = '<table cellspacing="0" cellpadding="10" border="0" style="background-color: #000021; width: 100%; height: 100%;">
+    <tr style="justify-content: center; width: 50%; align-items: center; margin: auto; text-align: center;">
+        <td></td>
+        <td><a href="https://matrizit.com.br" target="_blank"><img style="margin-top: 10%; margin-bottom: 10%;"
+                    src="https://matrizit.com.br/assets/images/logo-horizontal.png"></a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td
+            style="background-color: #FFFFFF; border-radius: 30px; justify-content: center; width: 50%; margin: auto; padding: 20px;">
+            <br><br>
+            <h3 style="text-align: center;">Dados fornecidos para contato !</h3>
+            <br><br>
+            <p style="text-align: center;"><b>Nome</b> : ' . $nome . '</p>
+            <p style="text-align: center;"><b>Email</b> : ' . $email . '</p>
+            <p style="text-align: center;"><b>Telefone</b> : ' . $telefone . '</p>
+            <p style="text-align: center;"><b>Mensagem</b> : ' . $mensagem . '</p>
+            <br><br>
+        </td><br>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align: center;color: #FFFFFF;">
+            <p style="color: #FFFFFF;"><br>Entraremos em contato em breve para mais detalhes.<br>
+            </p>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align: center;"><a href="https://www.instagram.com/matrizit/" target="_blank">
+                <i class="btn-floating m-0" role="button"><img style="width: 30px ;"
+                        src="https://matrizit.com.br/assets/images/insta.png"></i>
+            </a></td>
+            <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align: center;"><a href="https://matrizit.com.br" target="_blank"><img
+            style="margin-top: 10%; margin-bottom: 10%; width: 250px;"
+            src="https://matrizit.com.br/assets/images/logo-email.png"></a></td>
+            <td></td>
+    </tr>
 
-                        <div style="justify-content: center; margin: auto; align-items: center; display: flex;"><p style="color: #FFFFFF;"><br>
-                        <a href="https://www.instagram.com/matrizit/" target="_blank">
-                        
-                                <i class="btn-floating m-0" role="button"><img style="width: 30px ;" src="https://matrizit.com.br/assets/images/insta.png"></i>
-                                </a>
-                            </a></div>
-                        
-                        <div style="justify-content: center; margin: auto; align-items: center; display: flex;">
-                            <a href="https://matrizit.com.br" target="_blank"><img style="margin-top: 10%; margin-bottom: 10%; width: 250px;" src="https://matrizit.com.br/assets/images/logo-email.png" ></a>
-                        </div>
-                            
-                            
-                       
-               
-            </div>
-        </div>
-    </section>
+</table>';
 
-    <!-- JS -->
-    <script src="https://matrizit.com.br/assets/js/bootstrap.js"></script>
-    <script src="https://matrizit.com.br/assets/js/bootstrap-reboot.js"></script>
-    
 
-</body>';
-    
+        $mail->SetFrom("giovanni.zaghi@matrizit.com.br");
+        $mail->Subject = "Contato site Matriz IT";
+        $mail->Body = $email_conteudo;
+        $mail->AddAddress("giovanni.zaghi@matrizit.com.br");
+        $mail->ClearReplyTos();
+        $mail->addCC(strtolower($email), "Matriz IT");
 
-    $mail->SetFrom("giovanni.zaghi@matrizit.com.br");
-    $mail->Subject = "Contato site Matriz IT";
-    $mail->Body = $email_conteudo;
-    $mail->AddAddress("giovanni.zaghi@matrizit.com.br");
-    $mail->ClearReplyTos();
-    $mail->addCC(strtolower($email), "Matriz IT");
-
-    if (!$mail->Send()) {
-        echo "<script>Alert('Erro ao tentar enviar email')</script>";
-    } else {
-        echo "<script>Alert('Mensagem enviada com sucesso !')</script>";
+        if (!$mail->Send()) {
+            echo "<script>Alert('Erro ao tentar enviar email')</script>";
+        } else {
+            echo "<script>Alert('Mensagem enviada com sucesso !')</script>";
+        }
     }
-
-}
-?>
+    ?>
 
 
     <section style="background-color: #09092E;">
@@ -358,10 +355,10 @@ if (isset($_POST['BTEnvia'])) {
                             <br>
 
                             <div class="text-center">
-                                
-                                    <button type="submit" name="BTEnvia"  value="Enviar" onclick="alert('Enviado com sucesso !!');" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
-                                        Mensagem</button>
-                                
+
+                                <button type="submit" name="BTEnvia" value="Enviar" onclick="alert('Enviado com sucesso !!');" class="btn button btn-outline-primary btn-lg btn-block" style="background-color:#FFFFFF; color:#FF3C00 !important; border-color: #FFFFFF;">Enviar
+                                    Mensagem</button>
+
                             </div>
                         </div>
                     </form>
