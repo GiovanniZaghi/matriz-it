@@ -169,64 +169,62 @@
         </div>
     </section>
     <section class=" bg-color responsivo responsivo-we tecnologia" id="grad ">
-        <div class="container items-center" id="tecno">
+        <div class="container " id="tecno">
+            <br>
+            <h1 class="mt-5"></h1>
+            <br>
             <div class="row">
-                <div class="text-center">
-                    <i class="text-semi-bold" style="color: #FF3C00; font-size: 20px;">Nossas tecnologias</i>
+                <div class="text-center text-white ">
+                    <span>
+
+                        <i class="text-semi-bold" style="color: #FF3C00; font-size: 20px;">Nossas tecnologias</i><br>
+                        
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="container items-center">
+            <div class="row ">
+                <div class="col-sm-12">
+                    <a class="m-1 text-center" onClick="changeDisplay('mobile')"><button class="btn btn-primary" style="width: 150px;" type="button">Mobile</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('front-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Front-end</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Back-end</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary" style="width: 150px;" type="button">Banco de dados</button></a>
+                    <div class="bala" id="mobile">
+                    <button id="tooltip" title="Flutter (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\flutter.png"></button>
+                    <button id="tooltip" title="React Native (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
+
                 </div>
 
-                <div class="col-sm-12 text-center">
-                    <h1 class="text-title-bg text-white"><i style="color: #FF3C00;">
-                        </i>
-                    </h1>
-                    <br>
-                    <p class="text-regular-white">
-                    </p>
-                    <br>
-                    <div class="container text-center">
-                        <div class="text-center d-flex justify-content-center">
-                            <a class="m-1 text-center" onClick="changeDisplay('mobile')"><button class="btn btn-primary" style="width: 150px;" type="button">Mobile</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('front-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Front-end</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Back-end</button></a>
-                            <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary" style="width: 150px;" type="button">Banco de dados</button></a>
-                        </div>
-
-                        <!-- MOBILE -->
-                        <div class="bala" id="mobile">
-                            <button id="tooltip" title="Flutter (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\flutter.png"></button>
-                            <button id="tooltip" title="React Native (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
-
-                        </div>
-
-                        <!-- FRONT-END -->
-                        <div class="bala" id="front-end">
-                            <button id="tooltip" title="React" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
-                            <button id="tooltip" title="Angular" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\angular.png"></button>
-                            <button id="tooltip" title="MobX" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mobx.png"></button>
-                            <button id="tooltip" title="Less / Saas" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\less.png"></button>
-                            <button id="tooltip" title="Javascript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\javascript.png"></button>
-                            <button id="tooltip" title="Typescript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\typescript.jpg"></button>
-                        </div>
-
-                        <!-- BACK-END -->
-                        <div class="bala" id="back-end">
-                            <button id="tooltip" title="Node.js" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\node.png"></button>
-                            <button id="tooltip" title="Docker" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\docker.png"></button>
-                            <button id="tooltip" title="GraphQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\GraphQL.png"></button>
-                            <button id="tooltip" title="Google Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\google.png"></button>
-                            <button id="tooltip" title="AWS Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\aws.png"></button>
-                            <button id="tooltip" title="Kubernetes" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\kubernets.png"></button>
-                        </div>
-
-                        <!-- BANCO DE DADOS -->
-                        <div class="bala" id="dba">
-                            <button id="tooltip" title="MySQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mysql.png"></button>
-                            <button id="tooltip" title="PostgreSQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\postgre.png"></button>
-                            <button id="tooltip" title="MongoDB" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mongo.png"></button>
-                        </div>
-
-                    </div>
+                <!-- FRONT-END -->
+                <div class="bala" id="front-end">
+                    <button id="tooltip" title="React" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
+                    <button id="tooltip" title="Angular" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\angular.png"></button>
+                    <button id="tooltip" title="MobX" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mobx.png"></button>
+                    <button id="tooltip" title="Less / Saas" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\less.png"></button>
+                    <button id="tooltip" title="Javascript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\javascript.png"></button>
+                    <button id="tooltip" title="Typescript" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\typescript.jpg"></button>
                 </div>
+
+                <!-- BACK-END -->
+                <div class="bala" id="back-end">
+                    <button id="tooltip" title="Node.js" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\node.png"></button>
+                    <button id="tooltip" title="Docker" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\docker.png"></button>
+                    <button id="tooltip" title="GraphQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\GraphQL.png"></button>
+                    <button id="tooltip" title="Google Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\google.png"></button>
+                    <button id="tooltip" title="AWS Cloud" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\aws.png"></button>
+                    <button id="tooltip" title="Kubernetes" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\kubernets.png"></button>
+                </div>
+
+                <!-- BANCO DE DADOS -->
+                <div class="bala" id="dba">
+                    <button id="tooltip" title="MySQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mysql.png"></button>
+                    <button id="tooltip" title="PostgreSQL" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\postgre.png"></button>
+                    <button id="tooltip" title="MongoDB" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\mongo.png"></button>
+                </div>
+                </div>
+
+            </div>
             </div>
         </div>
     </section>
@@ -243,8 +241,8 @@
         $mail->Host = "smtp.titan.email";
         $mail->Port = 465; // or 587
         $mail->IsHTML(true);
-        $mail->Username = "giovanni.zaghi@matrizit.com.br";
-        $mail->Password = "itmatriz11";
+        $mail->Username = "atendimento@matrizit.com.br";
+        $mail->Password = "atendimentoit11";
 
         $nome = $_POST["nome"];
         $email = $_POST["email"];
@@ -298,10 +296,10 @@
 </table>';
 
 
-        $mail->SetFrom("giovanni.zaghi@matrizit.com.br");
+        $mail->SetFrom("atendimento@matrizit.com.br");
         $mail->Subject = "Contato site Matriz IT";
         $mail->Body = $email_conteudo;
-        $mail->AddAddress("giovanni.zaghi@matrizit.com.br");
+        $mail->AddAddress("atendimento@matrizit.com.br");
         $mail->ClearReplyTos();
         $mail->addCC(strtolower($email), "Matriz IT");
 
