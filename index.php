@@ -186,10 +186,10 @@
             <div class="container items-center">
             <div class="row ">
                 <div class="col-sm-12">
-                    <a class="m-1 text-center" onClick="changeDisplay('mobile')"><button class="btn btn-primary" style="width: 150px;" type="button">Mobile</button></a>
-                    <a class="m-1 text-center" onClick="changeDisplay('front-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Front-end</button></a>
-                    <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary" style="width: 150px;" type="button">Back-end</button></a>
-                    <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary" style="width: 150px;" type="button">Banco de dados</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('mobile')"><button class="btn btn-primary margin-top" style="width: 150px;" type="button">Mobile</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('front-end')"><button class="btn btn-primary margin-top" style="width: 150px;" type="button">Front-end</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('back-end')"><button class="btn btn-primary margin-top" style="width: 150px;  type="button">Back-end</button></a>
+                    <a class="m-1 text-center" onClick="changeDisplay('dba')"><button class="btn btn-primary margin-top" style="width: 150px;" type="button">Banco de dados</button></a>
                     <div class="bala" id="mobile">
                     <button id="tooltip" title="Flutter (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\flutter.png"></button>
                     <button id="tooltip" title="React Native (Hibrido)" class="btn btn-basic btn-circle btn-lg margin"><img alt="" class="rounded-circle" style="width:50px ;" src="assets\images\react.png"></button>
@@ -335,7 +335,7 @@
                         <div class="" style="padding: 40px;">
                             <div class="form-group " style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Nome:</label>
-                                <input type="text" class="form-control invi " style="width: 100%;" id="exampleFormControlInput1" name="nome" placeholder="Ex: Luiz da silva">
+                                <input type="text" class="form-control invi text-white " style="width: 100%;" id="exampleFormControlInput1" name="nome" placeholder="Ex: Luiz da silva">
                             </div>
                             <div class="form-group" style="padding: 10px;">
                                 <label for="exampleFormControlInput1">Email:</label>
